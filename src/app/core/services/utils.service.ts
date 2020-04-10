@@ -4,6 +4,8 @@ import { AbstractControl, FormGroup } from '@angular/forms';
 import { MetricSystem } from 'app/shared/models';
 import { isNil } from 'app/shared/utils/lodash-exports';
 /**
+ * TODO: index.html:
+ *   https://stackoverflow.com/questions/56845517/issue-with-using-npm-convert-units-package-in-ionic-4
  * FIXME: Need to change lib/index.js lodash imports after npm install; Uncaught ReferenceError: global is not defined
  * var convert
  * , keys = require('lodash/keys')
